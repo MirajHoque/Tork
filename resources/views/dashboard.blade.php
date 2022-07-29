@@ -24,7 +24,7 @@
                             <div class="card-body">
                                 <div class="media">
                                     <div class="media-body">
-                                        <p class="text-muted font-weight-medium">Projects</p>
+                                        <p class="text-muted font-weight-medium">Employee</p>
                                         <h4 class="mb-0"></h4>
                                     </div>
 
@@ -42,7 +42,7 @@
                             <div class="card-body">
                                 <div class="media">
                                     <div class="media-body">
-                                        <p class="text-muted font-weight-medium">Complete Project</p>
+                                        <p class="text-muted font-weight-medium">Total Employee</p>
                                         <h4 class="mb-0"></h4>
                                     </div>
 
@@ -60,7 +60,7 @@
                             <div class="card-body">
                                 <div class="media">
                                     <div class="media-body">
-                                        <p class="text-muted font-weight-medium">On Going</p>
+                                        <p class="text-muted font-weight-medium">New Joinee</p>
                                         <h4 class="mb-0"></h4>
                                     </div>
 
