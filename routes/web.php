@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EmployeeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
+
+Route::resource('employee', EmployeeController::class);
+Route::post('multiple-image/update', [EmployeeController::class, 'updateMultiImage'])->name('employee.multiImage.update');
+Route::post('delete/multiple-employee', [EmployeeController::class, 'deleteMultipleEmployee'])->name('multiple.employee.delete');
+Route::get('/multi-img/delete/{id}', [EmployeeController::class, 'deleteImage'])->name('employee.image.delete');
